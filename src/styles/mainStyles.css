@@ -1,0 +1,30 @@
+
+  .canvas-controls {
+    text-align: center;
+    margin: 20px auto;
+  }
+  .canvas {
+    margin: auto;
+    border: solid 2px rgb(209, 77, 77);
+    width: 646px;
+  }
+  .canvas-row {
+    height: 15px;
+  }
+  .each-cell {
+    background-color: #9ab61e;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    border: solid 1px rgb(209, 77, 77);
+    -webkit-transition: background-color 0.15s ease-out;
+    -moz-transition: background-color 0.15s ease-out;
+    -o-transition: background-color 0.15s ease-out;
+    transition: background-color 0.15s ease-out;
+  }
+  .grid-tile:hover {
+    background-color: rgb(0, 0, 0);
+  }
